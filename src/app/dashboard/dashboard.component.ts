@@ -22,6 +22,8 @@ export class DashboardComponent implements OnInit {
     //     this.role=el;
     //   }
     // })
+   console.log(this.KeycloakService.getToken()) ;
+   console.log(this.KeycloakService.loadUserProfile()) ;
   }
 
   logout(){
